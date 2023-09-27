@@ -1,6 +1,15 @@
-user_option = input("rock, paper, scissors → ").lower()
+import random
 
-computer_option = 'scissors'
+options = ('rock', 'paper', 'scissors')
+
+user_option = input("rock, paper, scissors → ").lower()
+computer_option = random.choice(options)
+
+if not user_option in options:      # checking if the user took an invalid choice
+    print("That's not a valid choice!")
+
+print("User's option -> ", user_option)
+print("Computer's option -> ", computer_option)
 
 if user_option == computer_option:
     print("Draw!")
