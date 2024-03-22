@@ -16,6 +16,7 @@ print(True in list_2)       # True
 print(list[:4])     # [2, 9, 4, 17]
 print(list[2:5])        # [4, 17, -7]
 print(list[::2])        # [2, 4, -7]
+print(48 in list_2)     # False
 
 
 # we can alter the elements inside lists

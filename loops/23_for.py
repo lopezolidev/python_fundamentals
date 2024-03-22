@@ -142,9 +142,13 @@ print(" ")
 
 for person in people:
     print('name: ', person['name'])
+    print('age: ', person['age'])
 '''
 name:  John Doe
+age:  30
 name:  Luke Skywalker
+age:  24
 name:  Lara Croft
+age:  32
 '''
 

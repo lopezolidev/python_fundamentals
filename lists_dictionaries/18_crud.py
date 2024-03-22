@@ -50,3 +50,10 @@ print(strings)      # ['ab', 'ed', 're']
 
 #new_list.sort() # TypeError: '<' not supported between instances of 'int' and 'str' ← we cannot sort numbers and strings in the same list
 
+letters = ['A', 'B', 'C', 'D', 'E', 'F']
+
+letters.append('G')
+letters[0] = 'Z'
+letters.remove('C')
+letters.reverse()
+print(letters)

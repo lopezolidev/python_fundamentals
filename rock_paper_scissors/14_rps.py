@@ -10,11 +10,11 @@ condition = True
 
 while condition:
 
-    print('*' * 10)
+    print('*' * 30)
     print('ROUND ', rounds)
     print('computer ', computer_wins)
     print('user ', user_wins)
-    print('*' * 10)
+    print('*' * 30)
 
     user_option = input("rock, paper, scissors → ").lower()
     computer_option = random.choice(options)

@@ -37,3 +37,18 @@ print(person.values())      # dict_values(['John Jonah', ['pyton', 'R', 'C++']])
 
 person['socials'] = 'twitter'
 print(person)       # {'name': 'John Jonah', 'langs': ['pyton', 'R', 'C++'], 'socials': 'twitter'}
+
+
+person = {
+    'name': 'Nicolas',
+    'lastName': 'Molina',
+    'age': 29
+}
+
+# Escribe tu solución 👇
+
+person["twitter"] = "@nicobytes"
+person.update({'name': 'Felipe'})
+del person["age"]
+print(list(person.keys()))
+print(list(person.values()))
