@@ -7,7 +7,7 @@ print("4 * 5 = ", 4 * 5)
 print("100 - 1000 = ",100 - 1000)
 print("8 / 5 = ",8 / 5)
 print("12 + 97 = ",12 + 97)
-
+print("What's the residue of 8 / 5?", 8%5 )
 
 """
 Some lines 
@@ -24,3 +24,5 @@ of
 comment
 
 '''
+
+# Remember to execute python with command: python3 

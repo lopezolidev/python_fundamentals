@@ -14,7 +14,7 @@ lives = 3
 lives = lives - 1  # redeclaring the variable with an operation
 print(f"lives: {lives}") #lives: 2
 
-lives -= 1      # arithmetic operation with the '=' after
+lives -= 1      # arithmetic operation with the '-=' after
 print(f"lives: {lives}") #lives: 3
 
 # scientific notation
@@ -22,7 +22,7 @@ print(f"lives: {lives}") #lives: 3
 print(f"value of 'separation': {separation}") #value of 'separation': 3e-39
 
 distance = 8000000000000000000000000000000000000000.1 
-distance2 = 9999999999999999999999999999999999999999999999
+distance2 = 100000000000000000000000000000000000000000000000
 #scientific notation only works with floats, not with integers
 
 print(f"quantic distance {distance} and {distance2}")

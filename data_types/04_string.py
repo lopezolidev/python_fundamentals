@@ -11,6 +11,8 @@ print(full_name)
 quote = " That's a better solution "
 quote2 = ' She said "Hello" '
 
+# quote2 = ' She said "Hello, I'm from the future" ' ← this cannot be read, this is because it crashes with python interpretation of strings
+
 print(quote)
 print(quote2)
 

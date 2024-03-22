@@ -12,7 +12,7 @@ print(x == y)   # False
 
 # "string form"
 
-y_str = format(y, ".2g")    # ← transforming 'y' into a string, and then manually eliminating those 0's until only 2 decimal points → "3.3"
+y_str = format(y, ".2g")    # ← transforming 'y' into a string, and then manually eliminating those 0's until only 2 decimal points → "3.3". "0.2g" means 2 digits
 
 print('str =>', y_str)  # str => 3.3
 print(y_str == str(x))  # True   ← 'x' also turns into a string
@@ -24,3 +24,9 @@ print(x, y)     # 3.3 3.3000000000000003
 
 tolerance = 0.00001
 print(abs(x - y) < tolerance)   #True   → | 3.3 - 3.3000000000000003 | < 0.00001    →    (absolute value of a very small number) < 0.00001   → it's true. Both numbers are equal aside from the difference
+
+# another way to go around this ...
+
+y_float = float(format(y, "0.2g"))
+print('float => ', y_float) # int =>  3.3
+print(x == y_float) # True

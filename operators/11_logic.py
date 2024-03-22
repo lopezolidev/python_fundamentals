@@ -22,3 +22,6 @@ print('False or False =>', False or False)
 role = input('Insert role => ')     # guest   -    admin   -   seller
 
 print(role == 'admin' or role == 'guest')   # True   -   True   - False
+
+number = int(input('Insert a random integer => '))
+print((number >= 5 or number < 8) and number < 20)  # 19 → True

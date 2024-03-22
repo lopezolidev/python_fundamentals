@@ -1,7 +1,7 @@
 # >
 print(5 > 4)    #True
 print(4 > 5)    #False
-print('apple' > 'Apple')    #True
+print('apple' > 'Apple')    #True → because goes to ASCII value of the string and int('a') < int('A')
 print('Apple' > 'apple')    #False
 
 # < 
@@ -33,3 +33,6 @@ print('apple' != 'apple')   #False
 # Control flow example
 age = 18
 print(age >= 21)    #False
+
+# Experiments
+print(-int('0') == False)   # True 

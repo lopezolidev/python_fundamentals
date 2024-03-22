@@ -31,3 +31,5 @@ print(text_2.capitalize())      # This is a title
 print(text_2.title())       # This Is A Title
 print(text_2.isdigit())     #False
 print("398".isdigit())      #True
+
+# print(int('0').isdigit()) → doesn't work with direct numbers

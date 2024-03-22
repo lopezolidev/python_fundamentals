@@ -6,8 +6,9 @@ rounds = 0
 
 computer_wins = 0
 user_wins = 0
+condition = True
 
-while True:
+while condition:
 
     print('*' * 10)
     print('ROUND ', rounds)
@@ -59,7 +60,7 @@ while True:
     
     if computer_wins == 2:
         print('Final winner is computer!')
-        break
+        condition = False
     if user_wins == 2:
         print('Final winner is the user!')
-        break   
+        condition = False   

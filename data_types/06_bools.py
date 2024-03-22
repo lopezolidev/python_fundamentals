@@ -13,3 +13,6 @@ print(is_single) #True
 
 print(not(not(not is_single))) # False → True → False
 
+# we can also see that empty objects have a boolean value:
+print(bool(''), bool(dict()), bool([]), bool(None), bool(set()), bool(range(0)))
+#       False       False       False       False       False       False

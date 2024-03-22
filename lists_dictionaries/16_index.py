@@ -27,3 +27,10 @@ print(text[:])          # She knows Python
 print(text[10:16:1])    # Python    ← jumping 1 character at the time from position 10 to 16 
 print(text[10:16:2])    # Pto   ← jumping 2 character at the time from position 10 to 16
 print(text[::2])        # SekosPto  ← jumping 2 characters from start to finish
+
+print(text[-6:])    # Python
+print(text[-12:9])  # knows
+print(text[-12:-6]) # knows
+print(text[-12:])   # knows Python
+print(text[::-1])   # nohtyP swonk ehS
+print(text[::3])    # S o tn    ← leaping 3 positions from the start
