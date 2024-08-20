@@ -25,4 +25,9 @@ comment
 
 '''
 
+print("This string has \'special' characters")
+print("This string ends with a gap", end=", ")
+print("and this one with\na line jump")
+
+
 # Remember to execute python with command: python3 

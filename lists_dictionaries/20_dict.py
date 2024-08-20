@@ -92,3 +92,28 @@ print(myfamily)
 
 print(f'This childs name is {myfamily["child3"]["name"]} and he was born on {myfamily["child3"]["year"]}')  # This childs name is Linus and he was born on 2011
 
+print(myfamily.keys()) # dict_keys(['child1', 'child2', 'child3', 'child4'])
+print(myfamily.values())
+'''
+dict_values([
+    {'name': 'Emil', 'year': 2004}, 
+    {'name': 'Tobias', 'year': 2007}, 
+    {'name': 'Linus', 'year': 2011}, 
+    {'name': 'Neal', 'year': 2008}
+    ])
+
+'''
+print(myfamily.items())
+'''
+dict_items([
+    
+    ('child1', {'name': 'Emil', 'year': 2004}), 
+    
+    ('child2', {'name': 'Tobias', 'year': 2007}), 
+    
+    ('child3', {'name': 'Linus', 'year': 2011}), 
+    
+    ('child4', {'name': 'Neal', 'year': 2008})
+    
+    ])
+'''
