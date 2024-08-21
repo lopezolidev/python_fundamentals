@@ -28,11 +28,20 @@ strs[i] consists of only lowercase English letters.
 def longestCommonPrefix(strs):
     res = ""
 
-    for i in range(len(strs[0])):
-        for string in strs:
-            if i == len(string) or string[i] != strs[0][i]:
-                return res
-        res += strs[0][i]
+    strs = sorted(strs)
+
+    first = strs[0]
+    last = strs[-1]
+
+    i= 0
+    j = 0
+    while i < len(first):
+        if first[i] != last[j]:
+            return res
+        res += first[i]
+        i += 1
+        j += 1
+
     return res
 
-print((longestCommonPrefix(["car", "can", "canon", "canvi"])))
+print((longestCommonPrefix(["a", ""])))
